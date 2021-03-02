@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;}
+}    
 
+html {
+        font-family: 'Krona One', sans-serif;
+}
 
 main > section > nav {
     text-align: right;
@@ -24,6 +27,7 @@ main > section > nav li {
     width: 45px;
     border-radius: 50%;
     font-size: 20px;
+    font-weight: bold;
 }
 
 main > section > nav a {
@@ -51,7 +55,7 @@ main > section > figure > figcaption {
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     
 }
 
