@@ -8,6 +8,8 @@ html {
         font-family: 'Krona One', sans-serif;
 }
 
+/* NAV */
+
 main > section > nav {
     text-align: right;
     padding: 50px 30px;
@@ -36,6 +38,8 @@ main > section > nav a {
 
 }
 
+/* IMMAGINI E TESTO */
+
 main > section {
     position: relative;
     width: 100%;
@@ -44,7 +48,7 @@ main > section {
     background-color: lightgrey;
 }
 
-main > section > figure {
+main > section  figure {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -60,16 +64,16 @@ main > section > figure > figcaption {
 }
 
 main > section.first {
-    /* background-color: red; */
+    background-color: red;
     color: yellow;
 }
 
 main > section.second {
-    /* background-color: green; */
+    background-color: green;
     color: yellow;
 }
 
 main > section.third {
-    /* background-color: yellow; */
+    background-color: yellow;
     color: green;
 }
